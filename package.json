@@ -1,0 +1,25 @@
+{
+     "name": "void-gift-bot",
+     "version": "7.0.0",
+     "description": "Void Gift bot with Telegram Stars payments",
+     "main": "bot.js",
+     "scripts": {
+       "start": "node bot.js"
+     },
+     "keywords": [
+       "telegram",
+       "bot",
+       "telegram-stars",
+       "payments"
+     ],
+     "author": "Your Team",
+     "license": "MIT",
+     "dependencies": {
+       "cors": "^2.8.6",
+       "express": "^5.2.1",
+       "node-telegram-bot-api": "^0.64.0"
+     },
+     "engines": {
+       "node": ">=14.0.0"
+     }
+   }
